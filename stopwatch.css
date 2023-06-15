@@ -1,0 +1,89 @@
+body {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	/* Same colour as in the rock paper scissors project */
+	background-color: rgb(25, 25, 25);
+	color: white;
+	user-select: none;
+}
+
+h1.title {
+	display: inline-block;
+}
+
+img.icon {
+	height: 38.444px;
+}
+
+div.title-container,
+p.time,
+div.button-container {
+	/* Centre the elements on the screen */
+	text-align: center;
+}
+
+div.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+button.go-button,
+button.add-lap-button,
+button.reset-button {
+	height: 45px;
+	width: 45px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.85);
+	transition: box-shadow 0.15s;
+	cursor: pointer;
+}
+
+button.go-button,
+button.reset-button {
+	border-radius: 50%;
+}
+
+button.add-lap-button {
+	margin: 0px 15px;
+}
+
+button.reset-button:active,
+button.add-lap-button:active,
+button.go-button:active {
+	box-shadow: none;
+}
+
+div.laps-list-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ol.laps-list {
+	padding: 0;
+}
+
+li.lap-item {
+	padding: 0;
+}
+
+div.credits-wrapper {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+div.credits-container {
+	position: relative;
+	display: flex;
+}
+
+a.credits {
+	color: white;
+	font-size: 10px;
+	display: inline-block;
+}
+
+img.credits-icon {
+	margin-right: 6px;
+	height: 12px;
+}
