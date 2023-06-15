@@ -2,7 +2,7 @@
 	"name": "stopwatch",
 	"description": "This is one of the projects from the JS course that I did, I enjoyed the project so much that I decided to make a separate repository for it.",
 	"author": "@🍉 Slqmy#5014",
-	"version": "0.7.0",
+	"version": "1.0.0",
 	"license": "ISC",
 	"keywords": [
 		"css",
@@ -28,11 +28,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Slqmy/Amazon-Clone.git"
+		"url": "git+https://github.com/Slqmy/Stopwatch"
 	},
-	"homepage": "https://github.com/Slqmy/Amazon-Clone#readme",
+	"homepage": "https://github.com/Slqmy/Stopwatch#readme",
 	"bugs": {
-		"url": "https://github.com/Slqmy/Amazon-Clone/issues"
+		"url": "https://github.com/Slqmy/Stopwatch/issues"
 	},
 	"scripts": {
 		"prettier": "npx prettier --write .",
