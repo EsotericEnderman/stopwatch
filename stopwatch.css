@@ -29,17 +29,13 @@ div.button-container {
 button.go-button,
 button.add-lap-button,
 button.reset-button {
-	height: 45px;
-	width: 45px;
+	width: 100px;
+	height: 30px;
 	border: none;
 	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.85);
 	transition: box-shadow 0.15s;
 	cursor: pointer;
-}
-
-button.go-button,
-button.reset-button {
-	border-radius: 50%;
+	border-radius: 4px;
 }
 
 button.add-lap-button {
@@ -49,6 +45,29 @@ button.add-lap-button {
 button.reset-button:active,
 button.add-lap-button:active,
 button.go-button:active {
+	box-shadow: none;
+}
+
+div.confirmation-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	height: 30px;
+}
+
+button.yes-button,
+button.no-button {
+	margin: 0px 5px;
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.85);
+	transition: box-shadow 0.15s;
+	border-radius: 4px;
+	border: none;
+	padding: 5px 8px;
+}
+
+button.yes-button:active,
+button.no-button:active {
 	box-shadow: none;
 }
 
