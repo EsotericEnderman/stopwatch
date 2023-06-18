@@ -1,3 +1,12 @@
 # ⏰ Stopwatch
 
-This is one of the projects from the [JS course](https://github.com/Slqmy/Amazon-Clone) that I did, I enjoyed the project so much that I decided to make a separate repository for it.
+A simple stopwatch project made using `HTML`, `CSS`, and `JS`. This was part of the [JS course](https://www.youtube.com/watch?v=SBmSRK3feww) by [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev) that I took to learn `JS`, `HTML`, and `CSS` together.
+
+## Features
+
+- Start/stop button
+- Reset button with confirmation message
+- The time is stored in the local storage
+- Ability to add laps
+
+[![ISC License](https://img.shields.io/badge/License-ISC-green.svg)](https://choosealicense.com/licenses/isc/)
