@@ -1,6 +1,3 @@
-// @ts-nocheck
-/* eslint-disable no-use-before-define */
-/* eslint-disable func-style */
 const timerElement = document.querySelector("p.js-time");
 
 let timer = JSON.parse(localStorage.getItem("timer")) ?? 0;
