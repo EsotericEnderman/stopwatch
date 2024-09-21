@@ -3,7 +3,7 @@ const timerElement = document.querySelector("p.js-time");
 let timer = JSON.parse(localStorage.getItem("timer")) ?? 0;
 let startTime = timer ? Date.now() - timer : null;
 
-const numberFormat = new Intl.NumberFormat("en-GB", {minimumIntegerDigits: 3})
+const numberFormat = new Intl.NumberFormat("en-GB", { minimumIntegerDigits: 3 })
 	.format;
 
 updateTimerElement();
@@ -94,9 +94,7 @@ function formatTime(time) {
 	const h = Math.floor(m / 60);
 	m = Math.floor(m % 60);
 
-	return `${h ? `${h}h ` : ""}${m || h ? `${m}m ` : ""}${
-		s || m || h ? `${s}s ` : ""
-	}${numberFormat(ms)}ms`;
+	return `${h ? `${h}h ` : ""}${m || h ? `${m}m ` : ""}${s || m || h ? `${s}s ` : ""}${numberFormat(ms)}ms`;
 }
 
 function updateTimerElement() {
